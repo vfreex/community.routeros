@@ -3913,6 +3913,7 @@ PATHS = {
             primary_keys=('name', ),
             fields={
                 'address-pool': KeyInfo(required=True),
+                'prefix-pool': KeyInfo(required=True),
                 'allow-dual-stack-queue': KeyInfo(can_disable=True, remove_value=True),
                 'binding-script': KeyInfo(can_disable=True, remove_value=''),
                 'comment': KeyInfo(can_disable=True, remove_value=''),
